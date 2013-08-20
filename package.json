@@ -1,0 +1,92 @@
+{
+  "name": "grunt-eco-iife",
+  "description": "Compiles embedded CoffeeScript templates into IIFEs (Immediately Invoked Function Expressions)",
+  "keywords": [
+    "grunt",
+    "eco",
+    "coffeescript",
+    "template"
+  ],
+  "version": "0.1.1",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gr2m/grunt-eco/blob/master/LICENSE-MIT"
+    }
+  ],
+  "homepage": "https://github.com/scottcorgan/grunt-eco-iife",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scottcorgan/grunt-eco-iife.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scottcorgan/grunt-eco-iife/issues"
+  },
+  "author": {
+    "name": "Scott Corgan (help from Gregor Martynus)",
+    "email": "scottcorgan@gmail.com"
+  },
+  "contributors": [
+    {
+      name: "Gregor Martynus"
+    },
+    {
+      "name": "Gregor Martynus",
+      "url": "https://github.com/avalade"
+    },
+    {
+      "name": "Derek Lindahl",
+      "url": "https://github.com/dlindahl"
+    },
+    {
+      "name": "Tim Oxley",
+      "url": "https://github.com/timoxley"
+    },
+    {
+      "name": "Pete Bacon Darwin",
+      "url": "https://github.com/petebacondarwin"
+    },
+    {
+      "name": "Kevin Rockwood",
+      "url": "https://github.com/rockwood"
+    },
+    {
+      "name": "Ken 'Elf' Matheiu Sternberg",
+      "url": "https://github.com/elfsternberg"
+    },
+    {
+      "name": "siriux",
+      "url": "https://github.com/siriux"
+    },
+    {
+      "name": "Enleur",
+      "url": "https://github.com/Enleur"
+    },
+    {
+      "name": "brewster1134",
+      "url": "https://github.com/brewster1134"
+    },
+    {
+      "name": "srigi",
+      "url": "https://github.com/srigi"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "eco": "~1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-contrib-clean": ">=0.4",
+    "grunt-contrib-jshint": ">=0.1.1",
+    "grunt-contrib-nodeunit": ">=0.1.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4"
+  },
+  "readmeFilename": "README.md",
+  "_id": "grunt-eco@0.1.0"
+}
