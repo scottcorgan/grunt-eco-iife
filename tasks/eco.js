@@ -36,7 +36,6 @@ module.exports = function(grunt) {
     '  var template' + output + '\n' +
     '  module.exports = template;\n' +
     '}());\n';
-    };
 
     return output;
   };
