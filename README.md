@@ -1,6 +1,6 @@
-# grunt-eco
+# grunt-eco-iife
 
-Compiles [Embedded CoffeeScript templates](https://github.com/sstephenson/eco) (`.eco`) into JavaScript functions.
+Compiles [Embedded CoffeeScript templates](https://github.com/sstephenson/eco) (`.eco`) into JavaScript IIFEs (Immediately Invoked Function Expressions).
 
 ## Getting Started
 
