@@ -20,41 +20,7 @@ grunt.loadNpmTasks('grunt-eco-iife');
 
 *This plugin was designed to work with Grunt 0.4.x. If you're still using grunt v0.3.x it's strongly recommended that [you upgrade](http://gruntjs.com/upgrading-from-0.3-to-0.4), but in case you can't please use [v0.3.1](https://github.com/gruntjs/grunt-contrib-stylus/tree/grunt-0.3-stable).*
 
-## eco task
-
-Run this task with the `grunt eco` command.
-
-Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
-
-### Options
-
-#### amd
-Type: `Boolean`
-Default: `false`
-
-Defines if compiled function will be wrapped in AMD `define` function.
-
-### emptyWarning
-
-Type: `Boolean`
-Default: `true`
-
-Defines if task will warn about empty files on console.
-
-#### jstGlobalCheck
-
-Type: `Boolean`
-Default: `true`
-
-Defines if compiled function is prepended by code checking/defining presence of `JST` object on `window`.
-
-*please note when `amd` is set to `true` the `jstGlobalCheck` is ignored*.
-
-### Warning
-
-`preserve_dirs` and `base_path` options are not supported anymore! See examples how task's paths are configured now.
-
-### Examples
+## Examples
 
 Two most common ways of compiling all [globbed paths](http://gruntjs.com/configuring-tasks#globbing-patterns) into single file:
 
@@ -96,38 +62,8 @@ If you ommit `dest` key, templates will be compiled right next to your `.eco` fi
 
 To configure `eco` task simply define `options` object:
 
-```js
-eco: {
-  app: {
-    options: {
-      amd: true
-    }
-    files: {
-      'path/to/templates.js': ['src/templates/**/*.eco']
-    }
-  }
-}
-```
+
 
 ## Acknowledgment
 
-This grunt plugin is based on and heavily inspired by [grunt-contrib-stylus](https://github.com/gruntjs/grunt-contrib-stylus).
-
-## Contributing
-
-To start, just clone project and then run `npm install` in project root.
-
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Always lint and test your code by running `grunt` in project's root.
-
-Create new GIT branch (`git checkout -b my_feature`) when sending pull request.
-
-## Release History
-
-* `Jun 16, 2013    v0.1.0` - Refactoring, tests, AMD support
-* `Mar 04, 2013    v0.0.2` - Grunt 0.4 compatibility
-* `Nov 18, 2012    v0.0.1` - Initial commit
-
-
-## License
-Copyright (c) 2012 Gregor Martynus
-Licensed under the MIT license.
+This grunt plugin is basically a copy of  [grunt-eco](https://github.com/gr2m/grunt-eco). I didn't any JST features. I only compiled templates in the form of Javascript or Coffeescript. That is why it is so close to the original.
