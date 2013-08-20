@@ -51,18 +51,6 @@ module.exports = function(grunt) {
         }]
       },
 
-      amdTest: {
-        options: {
-          amd: true
-        },
-        files: [{
-          expand: true,
-          src: 'tests/fixtures/**/*.eco',
-          dest: 'tmp/amdTest',
-          ext: '.js'
-        }]
-      },
-
       noJstGlobalCheckTest: {
         options: {
           jstGlobalCheck: false
@@ -86,7 +74,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
 
-  grunt.registerTask('default', ['jshint', 'test']);
-  grunt.registerTask('test', ['clean', 'eco', 'nodeunit']);
+  grunt.registerTask('default', ['jshint']);
 
 };
