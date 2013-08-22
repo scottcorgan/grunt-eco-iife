@@ -66,4 +66,4 @@ To configure `eco` task simply define `options` object:
 
 ## Acknowledgment
 
-This grunt plugin is basically a copy of  [grunt-eco](https://github.com/gr2m/grunt-eco). I didn't any JST features. I only compiled templates in the form of Javascript or Coffeescript. That is why it is so close to the original.
+This grunt plugin is basically a copy of  [grunt-eco](https://github.com/gr2m/grunt-eco). I just didn't need any JST features. I only compiled templates in the form of Javascript or Coffeescript. That is why it is so close to the original.
